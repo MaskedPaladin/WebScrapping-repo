@@ -15,7 +15,18 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Carlos Jiménez Encinas
+ * @version v1.0
+ *
+ * <p>Pro football reference american football players data scrapper</p>
+ */
 public class DataMinerImproved {
+    /**
+     *
+     * @throws IOException on case that can't create or access to file.
+     * <p>Obtain data contained in the urls on the urls.txt and generates a csv</p>
+     */
     public static void urlsToCsv() throws IOException {
         UrlObtainer.initialize();
         WebDriver driver = new FirefoxDriver();
