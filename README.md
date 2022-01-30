@@ -4,6 +4,6 @@
 # Como funciona
 - Este programa funciona empleando la libreria selenium para la obtencion de informacion y opencsv para el volcado de la misma a un fichero.
 # TODO
-Lectura del archivo csv.
-Generacion de xml a partir de los datos obtenidos/generados.
-Creacion del modelo uml.
+- Lectura del archivo csv.
+- Generacion de xml a partir de los datos obtenidos/generados.
+- Creacion del modelo uml.
