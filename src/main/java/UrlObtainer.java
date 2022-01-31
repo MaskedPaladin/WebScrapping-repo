@@ -87,6 +87,6 @@ public class UrlObtainer {
         //In case the os is Windows 10. we set the .exe binary of the driver to use.
         if (os.equals("Windows 10")){ System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe"); }
         //In case the os is Unix-based. we set the unix binary of the driver to use.
-        else (os.contains("Linux")){ System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");}
+        else { System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");}
     }
 }
